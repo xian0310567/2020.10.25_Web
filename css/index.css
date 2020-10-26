@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#Logo_dot {width : 640px; height : 386px; margin-top : 240px; background-image : radial-gradient(#e8e8e8 30%, transparent 0), radial-gradient(#e8e8e8 30%, transparent 0);
+            background-position : 0 0, 20px 20px; background-size : 20px 20px; position : relative;}
+            #Logo_dot h1 {display: inline-block; text-align : center; font-family: "Nexa"; font-size : 115px; margin-top : 110px; width : 100%;}
+            #Logo_dot #Our_Service {position : absolute; margin-top : 50px; width : 100%;}
+                #Logo_dot #Our_Service img {display : block; margin : 0 auto;}
+                #Logo_dot #Our_Service span {left : 263px; bottom : 13px; font-family: "Nexa"; position :absolute; color : white;}

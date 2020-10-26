@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+* {margin : 0 auto;}
+
+body {width : 1286px;}
+
+
+
+@font-face {src : url("../font/NexaRustSans-Black.otf"); font-family: "Nexa";}
