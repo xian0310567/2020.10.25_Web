@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
-#Logo_dot {width : 640px; height : 386px; margin-top : 240px; background-image : radial-gradient(#e8e8e8 30%, transparent 0), radial-gradient(#e8e8e8 30%, transparent 0);
-            background-position : 0 0, 20px 20px; background-size : 20px 20px; position : relative;}
-            #Logo_dot h1 {display: inline-block; text-align : center; font-family: "Nexa"; font-size : 115px; margin-top : 110px; width : 100%;}
-            #Logo_dot #Our_Service {position : absolute; margin-top : 50px; width : 100%;}
-                #Logo_dot #Our_Service img {display : block; margin : 0 auto;}
-                #Logo_dot #Our_Service span {left : 263px; bottom : 13px; font-family: "Nexa"; position :absolute; color : white;}
+body {margin : 0 auto;}
+
+#wrap {position : relative; min-height : 95vh;}
+
+#Logo_dot {width : 700px; height : 386px; background-image : radial-gradient(#e8e8e8 30%, transparent 0), radial-gradient(#e8e8e8 30%, transparent 0);
+    background-position : 0 0, 20px 20px; background-size : 20px 20px; position : absolute; left : 50%; top : 50%; transform: translate(-50%, -50%);}
+    #Logo_dot h1 {display: inline-block; text-align : center; font-family: "Nexa"; font-size : 115px; margin-top : 110px; width : 100%; position : absolute;}
+    #Logo_dot #Our_Service {position : absolute; top : 75%; left : 50%; transform: translate(-50%);}
+        #Logo_dot #Our_Service img {margin : 0 auto; display : block;}
+        #Logo_dot #Our_Service span {bottom : 13px; font-family: "Nexa"; position :absolute; color : white; left : 50%; transform: translate(-50%); text-align : center; width : 100%;}
+
+        .graph {width : 48px; position : absolute; bottom : 0; z-index: 0; margin-bottom : 12px; background : #e8e8e8; transition : all 0.8s;}
+        .graph:hover {background : #737373;}
+        #grp1 {margin-left : 46px;}
+        #grp2 {margin-left : 126px;}
+        #grp3 {margin-left : 206px;}
+        #grp4 {margin-left : 286px;}
+        #grp5 {margin-left : 366px;}
+        #grp6 {margin-left : 446px;}
+        #grp7 {margin-left : 526px;}
+        #grp8 {margin-left : 606px;}
+
+footer {text-align : center; min-height : 5vh;}
+    footer span {font-size : 8pt}
